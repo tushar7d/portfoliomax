@@ -1,12 +1,14 @@
-{
+{"*":{
+  "type":"page"
+},
   "index":{
     "title":"Home",
-    "type":"page"
+    "type":"page",
+    "theme": {
+      "layout": "full"
+    }
   },
-  "work":{
-    "title":"Work",
-   "type":"page"
-    },
+
   
   "about":{
     "title":"About me",
