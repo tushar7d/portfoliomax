@@ -3,7 +3,9 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Tushar Debnath</span>,
-  search:{component: false},
+  search:{component: null},
+  feedback:{content: null},
+  editLink:{text:null},
   
   footer: {
     text: 'Nextra Docs Template',

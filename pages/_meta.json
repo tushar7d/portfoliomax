@@ -1,17 +1,25 @@
-{"*":{
-  "type":"page"
-},
+{
   "index":{
-    "title":"Home",
+    "title":"Work",
     "type":"page",
     "theme": {
       "layout": "full"
     }
   },
-
-  
+  "work":{
+    "title":"Work",
+   
+    "theme": {
+      "breadcrumb": false,
+      "sidebar":false
+    }
+    
+  },
   "about":{
     "title":"About me",
-    "type":"page"
+    "type":"page",
+    "theme": {
+      "typesetting": "article"
+    }
   }
 }

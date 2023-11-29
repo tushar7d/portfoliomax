@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 
 let CardHeader = (props) => {
@@ -9,10 +10,14 @@ let CardHeader = (props) => {
     );
   };
 
+
+  
 let Section = ()=>{
-    return(  <section className=" max-w-[1500px] mx-auto mt-24 ">
-    <div className="mb-12 font-serif text-6xl font-medium ">Featured Work</div>
+    return(  <section className=" max-w-[1500px] mx-auto mt-24 px-6 text-black">
+    <div className="mb-12 " />
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+      <Link href="/work/expansion-india">
       <div className="flex flex-col justify-between p-0 text-white transition duration-300 ease-out cursor-pointer project-card bg-gradient-to-b from-violet-950 to-indigo-600 overflow-clip group hover:scale-105">
         <CardHeader t="Revolut" b="Expanding to India" />
 
@@ -28,7 +33,7 @@ let Section = ()=>{
           </div>
         </div>
       </div>
-
+      </Link>
       <div className="flex flex-col justify-between p-0 text-white transition duration-300 ease-out cursor-pointer project-card bg-gradient-to-t from-fuchsia-700 to-cyan-950 group hover:scale-105">
         <CardHeader t="Revolut" b="Building Snap" />
         <div className="bg-[url('/images/snapcov.png')]  w-[500px]  h-full md:h-full ml-24 md:ml-16  mb-4  bg-contain bg-no-repeat group-hover:-translate-x-8 transition ease-out duration-300" />
@@ -49,7 +54,7 @@ let Section = ()=>{
         </div>
       </div>
     </div>
-    <div className="my-12 mt-24 font-serif text-6xl font-medium">
+    <div className="my-12 mt-24 font-serif text-5xl font-medium">
       Case studies
     </div>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
@@ -96,7 +101,7 @@ let Section = ()=>{
         </div>
       </div>
     </div>
-    <div className="my-12 mt-16 font-serif text-6xl font-medium">
+    <div className="my-12 mt-16 font-serif text-5xl font-medium">
       Small wins
     </div>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -109,7 +114,7 @@ let Section = ()=>{
       </div>
     </div>
 
-    <div className="my-12 mt-16 font-serif text-6xl font-medium">
+    <div className="my-12 mt-16 font-serif text-5xl font-medium">
       Side projects
     </div>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
