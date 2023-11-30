@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
   editLink:{text:null},
   
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Copyright 2023 Tushar Debnath',
   },
 }
 

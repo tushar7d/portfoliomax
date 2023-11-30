@@ -13,7 +13,7 @@ let CardHeader = (props) => {
 
   
 let Section = ()=>{
-    return(  <section className=" max-w-[1500px] mx-auto mt-24 px-6 text-black">
+    return(  <section className=" max-w-[1200px] mx-auto mt-24 px-6 text-black">
     <div className="mb-12 " />
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
@@ -34,11 +34,13 @@ let Section = ()=>{
         </div>
       </div>
       </Link>
+      <Link href="/work/building-snap">
       <div className="flex flex-col justify-between p-0 text-white transition duration-300 ease-out cursor-pointer project-card bg-gradient-to-t from-fuchsia-700 to-cyan-950 group hover:scale-105">
         <CardHeader t="Revolut" b="Building Snap" />
         <div className="bg-[url('/images/snapcov.png')]  w-[500px]  h-full md:h-full ml-24 md:ml-16  mb-4  bg-contain bg-no-repeat group-hover:-translate-x-8 transition ease-out duration-300" />
       </div>
-
+      </Link>
+      <Link href="/work/zomato">
       <div className="flex flex-col justify-between p-0 text-white transition duration-300 ease-out cursor-pointer project-card bg-gradient-to-t from-green-500 to-green-900 group hover:scale-105">
         <CardHeader t="Zomato" b="Order Tracking" />
         <div className="relative w-full h-full ">
@@ -53,6 +55,7 @@ let Section = ()=>{
           </div>
         </div>
       </div>
+      </Link>
     </div>
     <div className="my-12 mt-24 font-serif text-5xl font-medium">
       Case studies
