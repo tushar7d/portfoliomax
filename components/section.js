@@ -10,12 +10,24 @@ let CardHeader = (props) => {
     );
   };
 
+  let Heading = (props)=>{
+    return(
+      <div className="my-12 mt-24 font-serif text-5xl font-medium text-center text-black dark:text-white">
+      {props.children}
+    </div>
+    )
+  }
 
+  
   
 let Section = ()=>{
     return(  <section className=" max-w-[1200px] mx-auto mt-24 px-6 text-black">
     <div className="mb-12 " />
+    <Heading >
+      Featured
+    </Heading>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      
 
       <Link href="/work/expansion-india">
       <div className="flex flex-col justify-between p-0 text-white transition duration-300 ease-out cursor-pointer project-card bg-gradient-to-b from-violet-950 to-indigo-600 overflow-clip group hover:scale-105">
@@ -57,9 +69,9 @@ let Section = ()=>{
       </div>
       </Link>
     </div>
-    <div className="my-12 mt-24 font-serif text-5xl font-medium">
+    <Heading >
       Case studies
-    </div>
+    </Heading>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
       <div className="flex flex-col justify-between p-0 text-white transition duration-300 ease-out cursor-pointer project-card bg-gradient-to-t from-blue-400 to-blue-900 group hover:scale-105">
       <CardHeader t="Expedia" b="Car rental experience" />
@@ -104,9 +116,9 @@ let Section = ()=>{
         </div>
       </div>
     </div>
-    <div className="my-12 mt-16 font-serif text-5xl font-medium">
+    <Heading >
       Small wins
-    </div>
+    </Heading>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <div className="project-card bg-red-50 ">
         Revolut Singapore eGiro
@@ -117,9 +129,9 @@ let Section = ()=>{
       </div>
     </div>
 
-    <div className="my-12 mt-16 font-serif text-5xl font-medium">
+    <Heading >
       Side projects
-    </div>
+    </Heading>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <div className="project-card bg-red-50 ">Expedia design ops</div>
       <div className="project-card bg-red-50 ">

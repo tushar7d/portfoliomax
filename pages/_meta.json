@@ -15,8 +15,22 @@
     }
     
   },
-  "about":{
-    "title":"About me",
+  "blog": {
+    "title": "Blog",
+    "type":"page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "story": {
+    "title": "My story",
+    "type":"page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "resume":{
+    "title":"Resume",
     "type":"page",
     "theme": {
       "typesetting": "article"
