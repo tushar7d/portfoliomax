@@ -20,7 +20,7 @@ let CardHeader = (props) => {
 
   
   
-let Section = ()=>{
+let Home = ()=>{
     return(  <section className=" max-w-[1200px] mx-auto mt-24 px-6 text-black">
     <div className="mb-12 " />
     <Heading >
@@ -141,4 +141,4 @@ let Section = ()=>{
     </div>
   </section>)
 }
-export default Section
+export default Home
