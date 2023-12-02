@@ -1,8 +1,8 @@
 import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
+
 import Logo from "./components/logo";
 
-const config: DocsThemeConfig = {
+const config = {
   head: () => {
     return (
       <>
