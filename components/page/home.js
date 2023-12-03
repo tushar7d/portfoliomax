@@ -86,10 +86,10 @@ let IconSet = ()=>{
 
 let Home = () => {
   return (
-    <section className=" max-w-[1200px] mx-auto mt-24 px-6 text-black">
+    <section className=" max-w-[1140px] mx-auto mt-24 px-6 md:px-0  text-black">
       <div
         className={
-          " mx-3 mt-4 dark:bg-[#1F1F1F] bg-gray-50 md:mx-0 md:mt-0 rounded-2xl sm:min-h-[320px] p-8    md:flex md:justify-between md:items-center   "
+          "  mt-4 dark:bg-[#1F1F1F] bg-gray-50 md:mx-0 md:mt-0 rounded-2xl sm:min-h-[320px] p-8    md:flex md:justify-between md:items-center   "
         }
       >
         <div className="mb-4 md:mb-0 md:order-last">
@@ -100,7 +100,7 @@ let Home = () => {
         </div>
 
         <div className="flex flex-col justify-between text-center  md:text-left md:w-[70%]">
-          <h1 className="mb-2 font-serif text-5xl font-medium dark:text-white ">Hello Everyone!</h1>
+          <h1 className="mb-2 font-serif text-3xl font-medium md:text-5xl dark:text-white ">Hello Everyone!</h1>
           <div className="space-y-2 dark:text-white">
             <p className="mt-3 text-lg">
               I am Tushar Debnath a product designer and design technologist with 10+ years of
