@@ -1,38 +1,35 @@
 {
-  
-  "index":{
-    "title":"Home",
-    "type":"page",
+  "index": {
+    "title": "Home",
+    "type": "page",
     "theme": {
       "layout": "full"
     }
   },
-  "work":{
-    "title":"Work",
-   
+  "work": {
+    "title": "Work",
     "theme": {
       "breadcrumb": false,
-      "sidebar":false
+      "sidebar": false
     }
-    
   },
   "blog": {
     "title": "Blog",
-    "type":"page",
+    "type": "page",
     "theme": {
       "typesetting": "article"
     }
   },
   "story": {
     "title": "My story",
-    "type":"page",
+    "type": "page",
     "theme": {
       "typesetting": "article"
     }
   },
-  "resume":{
-    "title":"Resume",
-    "type":"page",
+  "resume": {
+    "title": "Resume",
+    "type": "page",
     "theme": {
       "typesetting": "article"
     }
