@@ -25,9 +25,12 @@ const config = {
   feedback: { content: null },
   editLink: { text: null },
 
-  footer: {
-    text: "© 2023 · Tushar Debnath",
+  footer: false,
+  gitTimestamp:false,
+  nextThemes: {
+    defaultTheme: 'dark'
   },
+  themeSwitch: false
 };
 
 export default config;

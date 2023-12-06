@@ -207,12 +207,7 @@ let Home = () => {
       </div>
      
 
-      <Heading>Side projects</Heading>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="project-card bg-red-50 ">Expedia design ops</div>
-        <div className="project-card bg-red-50 ">Figma comunity plugins</div>
-        <div className="project-card bg-red-50 ">Figma course</div>
-      </div>
+     
     </section>
   );
 };

@@ -14,19 +14,10 @@
     }
   },
   "blog": {
-    "title": "Blog",
-    "type": "page",
-    "theme": {
-      "typesetting": "article"
-    }
+    "title": "Writing",
+    "type": "page"
   },
-  "story": {
-    "title": "My story",
-    "type": "page",
-    "theme": {
-      "typesetting": "article"
-    }
-  },
+  
   "resume": {
     "title": "Resume",
     "type": "page",
