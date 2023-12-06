@@ -110,7 +110,8 @@ let Home = () => {
           </div>
           
           <div>
-          <button className="px-6 py-3 mx-auto mt-6 mb-6 bg-white rounded-full">More about me</button>
+            <Link href={"/about"}>
+          <button className="px-6 py-3 mx-auto mt-6 mb-6 bg-white rounded-full">More about me</button></Link>
        
           </div>
          

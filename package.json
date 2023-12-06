@@ -7,17 +7,21 @@
     "build": "next build",
     "start": "next start"
   },
-  
   "author": "Tushar Debnath",
   "license": "MIT",
-  
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "classnames": "^2.3.2",
+    "framer-motion": "^10.16.14",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
+    "photoswipe": "^5.4.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-photoswipe-gallery": "^3.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "18.11.10",

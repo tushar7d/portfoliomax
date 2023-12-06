@@ -18,8 +18,9 @@
     "type": "page"
   },
   
-  "resume": {
-    "title": "Resume",
+  
+  "about": {
+    "title": "About Me",
     "type": "page",
     "theme": {
       "typesetting": "article"
