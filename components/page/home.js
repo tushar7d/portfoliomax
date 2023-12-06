@@ -87,6 +87,11 @@ let IconSet = ()=>{
 let Home = () => {
   return (
     <section className=" max-w-[1140px] mx-auto mt-24 px-6 md:px-0  text-black">
+
+
+
+
+      
       <div
         className={
           "  mt-4 dark:bg-[#1F1F1F] bg-gray-50 md:mx-0 md:mt-0 rounded-2xl sm:min-h-[320px] p-8    md:flex md:justify-between md:items-center   "

@@ -11,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.518",
     "classnames": "^2.3.2",
     "framer-motion": "^10.16.14",
     "next": "^13.0.6",
