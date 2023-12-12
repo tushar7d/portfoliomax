@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 let CardHeader = (props) => {
   return (
     <div className="mt-12 text-center h-[150px]">
@@ -105,9 +106,9 @@ let Home = () => {
         </div>
 
         <div className="flex flex-col justify-between text-center  md:text-left md:w-[70%]">
-          <h1 className="mb-2 font-serif text-3xl font-medium md:text-5xl dark:text-white ">Hello Everyone!</h1>
+          <h1 className="mb-2 font-serif text-5xl font-black text-transparent select-none md:text-5xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text"  >Hello Everyone!</h1>
           <div className="space-y-2 dark:text-white">
-            <p className="mt-3 text-lg">
+            <p className="mt-3 text-lg select-none">
               I am Tushar Debnath a product designer and design technologist with 10+ years of
               experience building products loved by millions of people across
               the globe
