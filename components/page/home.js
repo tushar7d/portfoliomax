@@ -4,15 +4,15 @@ import Link from "next/link";
 let CardHeader = (props) => {
   return (
     <div className="mt-12 text-center h-[150px]">
-      <div className="mb-2 text-xl ">{props.t}</div>
-      <div className="font-serif text-3xl font-semibold">{props.b}</div>
+      <div className="mb-1 text-xl ">{props.t}</div>
+      <div className="font-serif text-4xl font-bold">{props.b}</div>
     </div>
   );
 };
 
 let Heading = (props) => {
   return (
-    <div className="my-12 mt-24 font-serif text-5xl font-medium text-center text-black dark:text-white">
+    <div className="my-12 mt-24 font-serif text-6xl font-bold text-center text-black dark:text-white">
       {props.children}
     </div>
   );
@@ -106,7 +106,7 @@ let Home = () => {
         </div>
 
         <div className="flex flex-col justify-between text-center  md:text-left md:w-[70%]">
-          <h1 className="mb-2 font-serif text-5xl font-black text-transparent select-none md:text-5xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text"  >Hello Everyone!</h1>
+          <h1 className="mb-2 font-serif text-6xl font-black text-transparent select-none md:text-7xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text"  >Hello Everyone!</h1>
           <div className="space-y-2 dark:text-white">
             <p className="mt-3 text-lg select-none">
               I am Tushar Debnath a product designer and design technologist with 10+ years of

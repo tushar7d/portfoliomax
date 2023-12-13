@@ -6,8 +6,8 @@ const config = {
   head: () => {
     return (
       <>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <title>Tushar Debnath</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tushar Debnath</title>
         <meta property="og:title" content="Tushar Debnath" />
         <meta property="og:site_name" content="Tushar Debnath" />
         <meta property="og:url" content="https://tushardebnath.com" />
@@ -24,13 +24,12 @@ const config = {
   search: { component: null },
   feedback: { content: null },
   editLink: { text: null },
-
-  footer: false,
-  gitTimestamp:false,
+  themeSwitch: false,
+  footer: { component: null },
+  gitTimestamp: false,
   nextThemes: {
-    defaultTheme: 'dark'
+    defaultTheme: "dark",
   },
-  themeSwitch: false
 };
 
 export default config;

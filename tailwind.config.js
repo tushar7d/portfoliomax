@@ -14,6 +14,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'serif': ['var(--font-recoleta)'],
+        
+       
+      },
       animation: {
         text: "text 5s ease infinite",
       },
